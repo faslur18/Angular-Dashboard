@@ -1,0 +1,131 @@
+<div class="container mt-3 mb-5">
+
+
+    <!-- charts -->
+
+    <div class="row mb-3">
+        <div class="d-flex justify-content-between">
+            <h2>Overview</h2>
+            <a class="text-dark" href="#">View Details</a>
+        </div>
+
+
+
+        <!-- line chart -->
+
+        <div class="col-lg-8  border rounded me-2" style="width: 58%;height: 460px;padding: 20px;">
+
+            <div class="row">
+                <h5>Total portfolio</h5>
+                <h1>$35,687.<span>64</span> </h1>
+            </div>
+
+            <div class="row">
+
+                <app-line-graph></app-line-graph>
+
+            </div>
+
+        </div>
+
+        <!--  bar chart  -->
+
+        <div class="col-lg-4 border rounded" style="width: 41%;height: 460px;padding: 20px;">
+
+            <div class="row">
+                <div class=" d-flex justify-content-between">
+                    <h3 style="font-weight: bold;">Return on investment</h3>
+
+                    <button class="p-1 rounded"
+                        style="background-color: rgb(179, 181, 181); border: none; cursor: none; height: 25px;font-weight: normal;">Last
+                        6m</button>
+
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="row">
+
+                <app-bar-graph></app-bar-graph>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="d-flex justify-content-between">
+            <h2>Portfolio Details</h2>
+            <a class="text-dark" href="#">View Details</a>
+
+        </div>
+
+        <!-- Cards -->
+
+        <!-- 1 -->
+        <div class="col-md-4 border rounded me-2"
+            style="width: 32.7%;height: 200px;background-color: rgb(227, 249, 29);padding: 20px;">
+            <h3 style="font-weight: bolder;">Liquid Assets</h3>
+            <p style="font-weight: normal;">Tokens representing your positions in pools</p>
+            <h1>$4,234.34</h1>
+
+            <div class="d-flex">
+                <button class="p-1 rounded me-3"
+                    style="background-color: rgb(249, 252, 252); cursor:not-allowed; border: none;  height: 25px;font-weight: bolder;">
+                    <i class="fa-solid fa-caret-up me-1" style="color: #000000;"></i>20.32%
+                    
+                </button>
+                <p style="color: #737373;" class="pt-1">This Week</p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- 2 -->
+        <div class="col-md-4 border rounded me-2"
+            style="width: 32.7%;height: 200px; background-color: rgb(250, 162, 253);padding: 20px;">
+            <h3 style="font-weight: bolder;">Margin Positions</h3>
+            <p style="font-weight: normal;">Tokens representing your positions in pools</p>
+            <h1>$234.34</h1>
+
+            <div class="d-flex">
+                <button class="p-1 rounded me-3"
+                    style="background-color: rgb(249, 252, 252); border: none; cursor:not-allowed;  height: 25px;font-weight: bolder;">
+                    <i class="fa-solid fa-caret-down me-1" style="color: #000000;"></i>6.34%
+                    
+                </button>
+                <p style="color: #737373;" class="pt-1">This Week</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- 3 -->
+        <div class="col-md-4 border rounded" style="width:32.7%;height: 200px; background-color: rgb(204, 160, 254);padding: 20px;">
+            <h3 style="font-weight: bolder;">LP Positions</h3>
+            <p style="font-weight: normal;">Tokens representing your positions in pools</p>
+            <h1>$1,575.35</h1>
+
+            <div class="d-flex">
+                <button class="p-1 rounded me-3"
+                    style="background-color: rgb(249, 252, 252); border: none; cursor:not-allowed; height: 25px;font-weight: bolder;">
+                    <i class="fa-solid fa-caret-up me-1" style="color: #000000;"></i>0.45%
+                    
+                </button>
+                <p style="color: #737373;" class="pt-1">This Week</p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</div>
